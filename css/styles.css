@@ -126,15 +126,15 @@ font-family: 'Roboto';
 .page-footer .direction{
       color: var(--white);
 }
-.direction a{
+.direction .link{
       color: var(--primary-text-color);
             font-weight: 400;
             font-size: 14px;
             line-height: 1.71;
-          
-.direction .link:focus, 
-.direction .link:hover{
-      color: var(--accent);
+}
+.direction .link:hover, 
+.direction .link:focus{
+      color: #2196F3;
 }
 /*css for portfolio*/
  button{
@@ -149,8 +149,8 @@ font-weight: 400;
      color: var(--white);
      background-color: var(--accent);
 }
-.card-list .title{
-            color:var(--additional-text-color);
+.cards .title{
+            color: var(--additional-text-color);
             font-weight: 700;
             font-size: 18px;
             line-height:2;
