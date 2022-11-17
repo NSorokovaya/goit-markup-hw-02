@@ -150,5 +150,9 @@ font-weight: 400;
      background-color: var(--accent);
 }
 .card-list .title{
-            color: var(--additional-text-color)
+            color:var(--additional-text-color);
+            font-weight: 700;
+            font-size: 18px;
+            line-height:2;
+            letter-spacing: 0.06em;
 }
