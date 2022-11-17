@@ -71,7 +71,7 @@ ul{
             letter-spacing: 0.06em;
             text-transform: uppercase;
 }
-button{
+.hero button{
       background-color: var(--accent);
       color: var(--white);
       font-family: inherit;
@@ -109,7 +109,7 @@ font-family: 'Roboto';
 
 /*team*/
 .team-list .title{
-      color:var(--additional-text-color)
+      color: var(--additional-text-color);
             font-weight: 500;
             font-size: 16px;
             line-height: 1.19;
@@ -132,20 +132,22 @@ font-family: 'Roboto';
             font-size: 14px;
             line-height: 1.71;
           
-.direction .link:focus, .direction .link:hover{
+.direction .link:focus, 
+.direction .link:hover{
       color: var(--accent);
 }
 /*css for portfolio*/
-.options button{
+ button{
 color:  var(--additional-text-color);
 background-color: var(--second-background-color);
 font-weight: 400;
       font-size: 14px;
       line-height: 1.71;
 }
-.options button:hover, .options button:focus{
-      color: var(--white);
-      background-color: var(--accent);
+.options button:hover,
+.options button:focus{
+     color: var(--white);
+     background-color: var(--accent);
 }
 .card-list .title{
             color: var(--additional-text-color)
